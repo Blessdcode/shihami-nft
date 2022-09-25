@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600&family=Work+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <!-- CSS only -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/swiper.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/anima.css">
+    <!-- favicon -->
+    <link rel="icon" href="./assest/rel.svg">
+
+    <title>Shihami</title>
+</head>
+
+<body>
+
+    <!-- navigation -->
+    <header id="header">
+        <div class="contain">
+            <nav>
+                <div class="wrapper">
+                    <div class="logo">
+                        <a href="#header"><img src="./assest/Logo.png" alt=""></a>
+                    </div>
+                    <ul class="MenuItems">
+                        <li><a href="#explore">explore</a></li>
+                        <li><a href="#trending">trending nftS</a></li>
+                        <li><a href="#auctioned">auctioned nfts</a></li>
+                        <li><a href="#influencers">influencers</a></li>
+                    </ul>
+                    <div class="btn">
+                        <a href="" class="wallet_btn">Connect Wallet</a>
+                        <a href="user.html"><img src="./assest/User Profile.svg" alt=""></a>
+
+                        <div class="hambuger" onclick=" menutoggle()">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- hero_page_start -->
+            <div class="hero_page">
+                <div class="hero_left slideUp">
+                    <h1>EXPLORE, CREATE AND SELL YOUR NFT’S ON SHIHAMI</h1>
+                    <p>Shihami is the World’s first and largest NFT/Avatar marketplace</p>
+                    <div class="buttons">
+                        <a href="" class="button_dark">explore more</a>
+                        <a href="" class="button_light">create</a>
+                    </div>
+                </div>
+
+                <div class="hero_right slideUp">
+
+                    <div class="nfts_cards">
+
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="nft">
+                                        <img src="./assest/Rectangle 1.png" alt="">
+                                        <h3>Statue of vughae</h3>
+                                        <span>$ 452,968.48</span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="nft">
+                                        <img src="./assest/Rectangle 2.png" alt="">
+                                        <h3>bleeding ghost</h3>
+                                        <span>$ 152,793.17</span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="nft">
+                                        <img src="./assest/Rectangle 3.png" alt="">
+                                        <h3>Living of the art</h3>
+                                        <span>$ 543,576.13</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mikky_wav">
+            <img src="./assest/mikky.svg" alt="" class="mikky">
+            <img src="./assest/Arrow.svg" alt="" class="arrow">
+        </div>
+    </header>
+
+    <main>
+        <div class="contain">
+            <!-- support -->
+            <div class="support " id="explore">
+                <div class="content scale">
+                    <p>Trade with world’s most trusted and fastest wallets</p>
+                    <h2>wallets we support</h2>
+                </div>
+
+                <div class="glow_img">
+                    <img src="./assest/Vector.svg" alt="">
+                </div>
+
+                <div class="wallet ">
+                    <div class="wallet_1 scale">
+                        <div class="circle">
+                            <img src="./assest/Ellipse 1.png" alt="">
+                        </div>
+                        <small>Metamask</small>
+                    </div>
+                    <div class="wallet_1 scale">
+                        <div class="circle">
+                            <img src="./assest/Ellipse 2.png" alt="">
+                        </div>
+                        <small>Binance</small>
+                    </div>
+                    <div class="wallet_1 scale">
+                        <div class="circle">
+                            <img src="./assest/Ellipse 3.png" alt="">
+                        </div>
+                        <small>Trust wallet</small>
+                    </div>
+                    <div class="wallet_1 scale">
+                        <div class="circle">
+                            <img src="./assest/Ellipse 5.png" alt="">
+                        </div>
+                        <small>Alpha</small>
+                    </div>
+                    <div class="wallet_1 scale">
+                        <div class="circle">
+                            <img src="./assest/Ellipse 6.png" alt="">
+                        </div>
+                        <small>CoinGecko</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- how it works -->
+            <div class="works">
+                <div class="content scale">
+                    <h2>How it works</h2>
+                </div>
+                <div class="steps ">
+                    <div class="step_1 scale">
+                        <div class="circle">
+                            <img src="./assest/clarity_wallet-line.svg" alt="">
+                        </div>
+                        <h4>Set up your wallet</h4>
+                    </div>
+                    <!-- <div>
+                        <hr>
+                    </div> -->
+                    <div class="step_1 scale">
+                        <div class="circle">
+                            <img src="./assest/bi_collection.svg" alt="">
+                        </div>
+                        <h4>Create your collection</h4>
+                    </div>
+                    <!-- <div>
+                        <hr>
+                    </div> -->
+                    <div class="step_1 scale">
+                        <div class="circle">
+                            <img src="./assest/fluent_collections-24-regular.svg" alt="">
+                        </div>
+                        <h4>Add your NFTs</h4>
+                    </div>
+                    <!-- <div>
+                        <hr>
+                    </div> -->
+                    <div class="step_1 scale">
+                        <div class="circle">
+                            <img src="./assest/icon-park-outline_sales-report.svg" alt="">
+                        </div>
+                        <h4>List them for sale</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- collections -->
+            <div class="collection scale">
+                <div class="content ">
+                    <p>Trade with world’s most trusted and fastest wallets</p>
+                    <h2>Our collection</h2>
+                </div>
+                <div class="collection_img ">
+
+
+                    <div class="swiper-container two">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="slider-image">
+                                    <img src="./assest/Rectangle 34.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider-image">
+                                    <img src="./assest/Rectangle 32.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider-image">
+                                    <img src="./assest/Rectangle 33.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider-image">
+                                    <img src="./assest/Rectangle 35.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider-image">
+                                    <img src="./assest/Rectangle 36.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider-image">
+                                    <img src="./assest/Rectangle 31.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider-image">
+                                    <img src="./assest/Rectangle 37.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- trending -->
+            <div class="trends" id="trending">
+                <div class="content scale">
+                    <div class="text">
+                        <p>most loved NFTs of the time</p>
+                        <h2>hot trending nFTs </h2>
+                        <a href="" class="button_light">view all</a>
+                    </div>
+                </div>
+
+                <!-- cards -->
+                <div class="nft_cards">
+                    <div class="nft_card1 scale">
+                        <div class="nft-box">
+                            <div class="nft-pic">
+                                <img src="./assest/NFT Picture.png" alt="">
+                                <div class="svg-icon">
+                                    <img src="./assest/love.svg">
+                                    <small>341</small>
+                                </div>
+                            </div>
+                            <div class="user">
+                                <img src="./assest/User Profile.svg" alt="">
+                                <div class="user_name">
+                                    <h4>Monkey ape </h4>
+                                    <small>By @JSmith</small>
+                                </div>
+                            </div>
+                            <div class="btnn">
+                                <dvi class="bottom_nft">
+                                    <div class="fire">
+                                        <span>On Fire</span>
+                                        <img src="./assest/fxemoji_fire.svg" alt="">
+                                    </div>
+                                    <div class="eth">
+                                        <img src="./assest/ethereum-(eth).svg" alt="">
+                                        <div class="eth-tab">
+                                            <h4>4.89 ETH</h4>
+                                            <small>($ 654,874.86)</small>
+                                        </div>
+                                    </div>
+                                </dvi>
+                                <a href="" class="button_light">buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nft_card1 scale">
+                        <div class="nft-box">
+                            <div class="nft-pic">
+                                <img src="./assest/NFT Pic3.png" alt="">
+                                <div class="svg-icon">
+                                    <img src="./assest/love.svg">
+                                    <small>341</small>
+                                </div>
+                            </div>
+                            <div class="user">
+                                <img src="./assest/User Profile.svg" alt="">
+                                <div class="user_name">
+                                    <h4>Wired Human </h4>
+                                    <small>By @JSmith</small>
+                                </div>
+                            </div>
+                            <div class="btnn">
+                                <dvi class="bottom_nft">
+                                    <div class="fire">
+                                        <span>On Fire</span>
+                                        <img src="./assest/fxemoji_fire.svg" alt="">
+                                    </div>
+                                    <div class="eth">
+                                        <img src="./assest/ethereum-(eth).svg" alt="">
+                                        <div class="eth-tab">
+                                            <h4>4.89 ETH</h4>
+                                            <small>($ 654,874.86)</small>
+                                        </div>
+                                    </div>
+                                </dvi>
+                                <a href="" class="button_light">buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nft_card1 scale">
+                        <div class="nft-box">
+                            <div class="nft-pic">
+                                <img src="./assest/NFT Pic.png" alt="">
+                                <div class="svg-icon">
+                                    <img src="./assest/love.svg">
+                                    <small>341</small>
+                                </div>
+                            </div>
+                            <div class="user">
+                                <img src="./assest/User Profile.svg" alt="">
+                                <div class="user_name">
+                                    <h4>Moonfall</h4>
+                                    <small>By @JSmith</small>
+                                </div>
+                            </div>
+                            <div class="btnn">
+                                <dvi class="bottom_nft">
+                                    <div class="fire">
+                                        <span>On Fire</span>
+                                        <img src="./assest/fxemoji_fire.svg" alt="">
+                                    </div>
+                                    <div class="eth">
+                                        <img src="./assest/ethereum-(eth).svg" alt="">
+                                        <div class="eth-tab">
+                                            <h4>4.89 ETH</h4>
+                                            <small>($ 654,874.86)</small>
+                                        </div>
+                                    </div>
+                                </dvi>
+                                <a href="" class="button_light">buy now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="nft_card1 scale">
+                        <div class="nft-box">
+                            <div class="nft-pic">
+                                <img src="./assest/NFT Pic.png" alt="">
+                                <div class="svg-icon">
+                                    <img src="./assest/love.svg">
+                                    <small>341</small>
+                                </div>
+                            </div>
+                            <div class="user">
+                                <img src="./assest/User Profile.svg" alt="">
+                                <div class="user_name">
+                                    <h4>Moonfall</h4>
+                                    <small>By @JSmith</small>
+                                </div>
+                            </div>
+                            <div class="btnn">
+                                <dvi class="bottom_nft">
+                                    <div class="fire">
+                                        <span>On Fire</span>
+                                        <img src="./assest/fxemoji_fire.svg" alt="">
+                                    </div>
+                                    <div class="eth">
+                                        <img src="./assest/ethereum-(eth).svg" alt="">
+                                        <div class="eth-tab">
+                                            <h4>4.89 ETH</h4>
+                                            <small>($ 654,874.86)</small>
+                                        </div>
+                                    </div>
+                                </dvi>
+                                <a href="" class="button_light">buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nft_card1 scale">
+                        <div class="nft-box">
+                            <div class="nft-pic">
+                                <img src="./assest/NFT Pic4.png" alt="">
+                                <div class="svg-icon">
+                                    <img src="./assest/love.svg">
+                                    <small>341</small>
+                                </div>
+                            </div>
+                            <div class="user">
+                                <img src="./assest/User Profile.svg" alt="">
+                                <div class="user_name">
+                                    <h4>Racer-To-Go </h4>
+                                    <small>By @JSmith</small>
+                                </div>
+                            </div>
+                            <div class="btnn">
+                                <dvi class="bottom_nft">
+                                    <div class="fire">
+                                        <span>On Fire</span>
+                                        <img src="./assest/fxemoji_fire.svg" alt="">
+                                    </div>
+                                    <div class="eth">
+                                        <img src="./assest/ethereum-(eth).svg" alt="">
+                                        <div class="eth-tab">
+                                            <h4>4.89 ETH</h4>
+                                            <small>($ 654,874.86)</small>
+                                        </div>
+                                    </div>
+                                </dvi>
+                                <a href="" class="button_light">buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nft_card1 scale">
+                        <div class="nft-box">
+                            <div class="nft-pic">
+                                <img src="./assest/NFT Picture.png" alt="">
+                                <div class="svg-icon">
+                                    <img src="./assest/love.svg">
+                                    <small>341</small>
+                                </div>
+                            </div>
+                            <div class="user">
+                                <img src="./assest/User Profile.svg" alt="">
+                                <div class="user_name">
+                                    <h4>Monkey ape </h4>
+                                    <small>By @JSmith</small>
+                                </div>
+                            </div>
+                            <div class="btnn">
+                                <dvi class="bottom_nft">
+                                    <div class="fire">
+                                        <span>On Fire</span>
+                                        <img src="./assest/fxemoji_fire.svg" alt="">
+                                    </div>
+                                    <div class="eth">
+                                        <img src="./assest/ethereum-(eth).svg" alt="">
+                                        <div class="eth-tab">
+                                            <h4>4.89 ETH</h4>
+                                            <small>($ 654,874.86)</small>
+                                        </div>
+                                    </div>
+                                </dvi>
+                                <a href="" class="button_light">buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glow_img">
+                    <img src="./assest/Vector.svg" alt="">
+                </div>
+            </div>
+
+
+            <div class="trends" id="auctioned">
+                <div class="content scale">
+                    <div class="text">
+                        <p>Most Appreciated NFTs On Sale For the day</p>
+                        <h2>Live Auction nFTs </h2>
+                        <a href="" class="button_light">view all</a>
+                    </div>
+                </div>
+
+                <!-- cards -->
+                <div class="nft_cards">
+                    <div class="nft_card1 scale">
+                        <div class="nft-box">
+                            <div class="nft-pic">
+                                <img src="./assest/NFT Pic3.png" alt="">
+                                <div class="svg-icon">
+                                    <img src="./assest/love.svg">
+                                    <small>341</small>
+                                </div>
+                            </div>
+                            <div class="user">
+                                <img src="./assest/User Profile.svg" alt="">
+                                <div class="user_name">
+                                    <h4>Wired Human </h4>
+                                    <small>By @JSmith</small>
+                                </div>
+                            </div>
+                            <div class="btnn">
+                                <dvi class="bottom_nft">
+                                    <div class="fire">
+                                        <span>On Fire</span>
+                                        <img src="./assest/fxemoji_fire.svg" alt="">
+                                    </div>
+                                    <div class="eth">
+                                        <img src="./assest/ethereum-(eth).svg" alt="">
+                                        <div class="eth-tab">
+                                            <h4>4.89 ETH</h4>
+                                            <small>($ 654,874.86)</small>
+                                        </div>
+                                    </div>
+                                </dvi>
+                                <a href="" class="button_light">buy now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="nft_card1 scale">
+                        <div class="nft-box">
+                            <div class="nft-pic">
+                                <img src="./assest/NFT Picture.png" alt="">
+                                <div class="svg-icon">
+                                    <img src="./assest/love.svg">
+                                    <small>341</small>
+                                </div>
+                            </div>
+                            <div class="user">
+                                <img src="./assest/User Profile.svg" alt="">
+                                <div class="user_name">
+                                    <h4>Monkey ape </h4>
+                                    <small>By @JSmith</small>
+                                </div>
+                            </div>
+                            <div class="btnn">
+                                <dvi class="bottom_nft">
+                                    <div class="fire">
+                                        <span>On Fire</span>
+                                        <img src="./assest/fxemoji_fire.svg" alt="">
+                                    </div>
+                                    <div class="eth">
+                                        <img src="./assest/ethereum-(eth).svg" alt="">
+                                        <div class="eth-tab">
+                                            <h4>4.89 ETH</h4>
+                                            <small>($ 654,874.86)</small>
+                                        </div>
+                                    </div>
+                                </dvi>
+                                <a href="" class="button_light">buy now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="nft_card1 scale">
+                        <div class="nft-box">
+                            <div class="nft-pic">
+                                <img src="./assest/NFT Pic.png" alt="">
+                                <div class="svg-icon">
+                                    <img src="./assest/love.svg">
+                                    <small>341</small>
+                                </div>
+                            </div>
+                            <div class="user">
+                                <img src="./assest/User Profile.svg" alt="">
+                                <div class="user_name">
+                                    <h4>Moonfall</h4>
+                                    <small>By @JSmith</small>
+                                </div>
+                            </div>
+                            <div class="btnn">
+                                <dvi class="bottom_nft">
+                                    <div class="fire">
+                                        <span>On Fire</span>
+                                        <img src="./assest/fxemoji_fire.svg" alt="">
+                                    </div>
+                                    <div class="eth">
+                                        <img src="./assest/ethereum-(eth).svg" alt="">
+                                        <div class="eth-tab">
+                                            <h4>4.89 ETH</h4>
+                                            <small>($ 654,874.86)</small>
+                                        </div>
+                                    </div>
+                                </dvi>
+                                <a href="" class="button_light">buy now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="nft_card1 scale">
+                        <div class="nft-box">
+                            <div class="nft-pic">
+                                <img src="./assest/NFT Pic4.png" alt="">
+                                <div class="svg-icon">
+                                    <img src="./assest/love.svg">
+                                    <small>341</small>
+                                </div>
+                            </div>
+                            <div class="user">
+                                <img src="./assest/User Profile.svg" alt="">
+                                <div class="user_name">
+                                    <h4>Racer-To-Go </h4>
+                                    <small>By @JSmith</small>
+                                </div>
+                            </div>
+                            <div class="btnn">
+                                <dvi class="bottom_nft">
+                                    <div class="fire">
+                                        <span>On Fire</span>
+                                        <img src="./assest/fxemoji_fire.svg" alt="">
+                                    </div>
+                                    <div class="eth">
+                                        <img src="./assest/ethereum-(eth).svg" alt="">
+                                        <div class="eth-tab">
+                                            <h4>4.89 ETH</h4>
+                                            <small>($ 654,874.86)</small>
+                                        </div>
+                                    </div>
+                                </dvi>
+                                <a href="" class="button_light">buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nft_card1 scale">
+                        <div class="nft-box">
+                            <div class="nft-pic">
+                                <img src="./assest/NFT Pic.png" alt="">
+                                <div class="svg-icon">
+                                    <img src="./assest/love.svg">
+                                    <small>341</small>
+                                </div>
+                            </div>
+                            <div class="user">
+                                <img src="./assest/User Profile.svg" alt="">
+                                <div class="user_name">
+                                    <h4>Moonfall</h4>
+                                    <small>By @JSmith</small>
+                                </div>
+                            </div>
+                            <div class="btnn">
+                                <dvi class="bottom_nft">
+                                    <div class="fire">
+                                        <span>On Fire</span>
+                                        <img src="./assest/fxemoji_fire.svg" alt="">
+                                    </div>
+                                    <div class="eth">
+                                        <img src="./assest/ethereum-(eth).svg" alt="">
+                                        <div class="eth-tab">
+                                            <h4>4.89 ETH</h4>
+                                            <small>($ 654,874.86)</small>
+                                        </div>
+                                    </div>
+                                </dvi>
+                                <a href="" class="button_light">buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nft_card1 scale">
+                        <div class="nft-box">
+                            <div class="nft-pic">
+                                <img src="./assest/NFT Picture.png" alt="">
+                                <div class="svg-icon">
+                                    <img src="./assest/love.svg">
+                                    <small>341</small>
+                                </div>
+                            </div>
+                            <div class="user">
+                                <img src="./assest/User Profile.svg" alt="">
+                                <div class="user_name">
+                                    <h4>Monkey ape </h4>
+                                    <small>By @JSmith</small>
+                                </div>
+                            </div>
+                            <div class="btnn">
+                                <dvi class="bottom_nft">
+                                    <div class="fire">
+                                        <span>On Fire</span>
+                                        <img src="./assest/fxemoji_fire.svg" alt="">
+                                    </div>
+                                    <div class="eth">
+                                        <img src="./assest/ethereum-(eth).svg" alt="">
+                                        <div class="eth-tab">
+                                            <h4>4.89 ETH</h4>
+                                            <small>($ 654,874.86)</small>
+                                        </div>
+                                    </div>
+                                </dvi>
+                                <a href="" class="button_light">buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glow_img">
+                    <img src="./assest/Vector.svg" alt="">
+                </div>
+            </div>
+
+            <!-- joined influencers -->
+            <div class="influencers" id="influencers">
+                <div class="content ">
+                    <div class="text scale">
+                        <p>Watch and follow celebrities to get the best collection of NFTs</p>
+                        <h2>joined influencers</h2>
+                        <a href="" class="button_light">view all</a>
+                    </div>
+                    <div class="influencer_profile">
+                        <div class="influencer_card scale">
+                            <div class="influencer_pic">
+                                <div class="pic_image">
+                                    <img src="./assest/unsplash_3MAmj1ZKSZA.png" alt="">
+                                    <img src="./assest/unsplash_5rsNohd8bY8.png" alt="">
+                                </div>
+                                <img src="./assest/user1.svg" class="user">
+                            </div>
+                            <div class="influencer_title">
+                                <div class="name">
+                                    <div class="bold_name">
+                                        <h4>John Smith</h4>
+                                        <img src="./assest/verified.svg" alt="">
+                                    </div>
+                                    <small>@jsmith</small>
+                                </div>
+                                <a href="" class="rounded_btn">Follow</a>
+                            </div>
+                        </div>
+                        <div class="influencer_card scale">
+                            <div class="influencer_pic">
+                                <div class="pic_image">
+                                    <img src="./assest/unsplash_3MAmj1ZKSZAX.png" alt="">
+                                    <img src="./assest/unsplash_5rsNohd8bY8M.png" alt="">
+                                </div>
+                                <img src="./assest/user2.svg" class="user">
+                            </div>
+                            <div class="influencer_title">
+                                <div class="name">
+                                    <div class="bold_name">
+                                        <h4>John Smith</h4>
+                                        <img src="./assest/verified.svg" alt="">
+                                    </div>
+                                    <small>@jsmith</small>
+                                </div>
+                                <a href="" class="rounded_btn">Follow</a>
+                            </div>
+                        </div>
+                        <div class="influencer_card scale">
+                            <div class="influencer_pic">
+                                <div class="pic_image">
+                                    <img src="./assest/unsplash_3MAmj1ZKSZAY.png" alt="">
+                                    <img src="./assest/unsplash_5rsNohd8bY8D.png" alt="">
+                                </div>
+                                <img src="./assest/user3.svg" class="user">
+                            </div>
+                            <div class="influencer_title">
+                                <div class="name">
+                                    <div class="bold_name">
+                                        <h4>John Smith</h4>
+                                        <img src="./assest/verified.svg" alt="">
+                                    </div>
+                                    <small>@jsmith</small>
+                                </div>
+                                <a href="" class="rounded_btn">Follow</a>
+                            </div>
+                        </div>
+                        <div class="influencer_card scale">
+                            <div class="influencer_pic">
+                                <div class="pic_image">
+                                    <img src="./assest/unsplash_3MAmj1ZKSZAZ.png" alt="">
+                                    <img src="./assest/unsplash_5rsNohd8bY8N.png" alt="">
+                                </div>
+                                <img src="./assest/user2.svg" class="user">
+                            </div>
+                            <div class="influencer_title">
+                                <div class="name">
+                                    <div class="bold_name">
+                                        <h4>John Smith</h4>
+                                        <img src="./assest/verified.svg" alt="">
+                                    </div>
+                                    <small>@jsmith</small>
+                                </div>
+                                <a href="" class="rounded_btn">Follow</a>
+                            </div>
+                        </div>
+                        <div class="influencer_card scale">
+                            <div class="influencer_pic">
+                                <div class="pic_image">
+                                    <img src="./assest/unsplash_3MAmj1ZKSZAX.png" alt="">
+                                    <img src="./assest/unsplash_5rsNohd8bY8M.png" alt="">
+                                </div>
+                                <img src="./assest/user1.svg" class="user">
+                            </div>
+                            <div class="influencer_title">
+                                <div class="name">
+                                    <div class="bold_name">
+                                        <h4>John Smith</h4>
+                                        <img src="./assest/verified.svg" alt="">
+                                    </div>
+                                    <small>@jsmith</small>
+                                </div>
+                                <a href="" class="rounded_btn">Follow</a>
+                            </div>
+                        </div>
+                        <div class="influencer_card scale">
+                            <div class="influencer_pic">
+                                <div class="pic_image">
+                                    <img src="./assest/unsplash_3MAmj1ZKSZA.png" alt="">
+                                    <img src="./assest/unsplash_5rsNohd8bY8.png" alt="">
+                                </div>
+                                <img src="./assest/user3.svg" class="user">
+                            </div>
+                            <div class="influencer_title">
+                                <div class="name">
+                                    <div class="bold_name">
+                                        <h4>John Smith</h4>
+                                        <img src="./assest/verified.svg" alt="">
+                                    </div>
+                                    <small>@jsmith</small>
+                                </div>
+                                <a href="" class="rounded_btn">Follow</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="glow_img">
+                    <img src="./assest/Vector.svg" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- subscribe -->
+        <div class="subscribe slideUp">
+            <div class="sub_now">
+                <h2>Ready for Next NFT Drop?</h2>
+                <form>
+                    <input type="email" name="email" id="email" required placeholder="info@gmail.com">
+                    <button>
+                        <img src="./assest/Arrow.svg" alt="">
+                    </button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <!-- footer -->
+
+    <footer>
+        <div class="footer_logo">
+            <a href="#header"><img src="./assest/Logo.png" width="130px" style="cursor: pointer;"></a>
+        </div>
+        <div class="footer_links">
+            <p>Shihami is the world’s leading NFTs marketplace where you can discover, sell and bid NFTs and get rich
+            </p>
+            <div class="socials">
+                <img src="./assest/social (1).svg" alt="">
+                <img src="./assest/social (2).svg" alt="">
+                <img src="./assest/social (3).svg" alt="">
+                <img src="./assest/social (4).svg" alt="">
+            </div>
+            <div class="copy">
+                <span>All rights reserved @Faizansayani</span>
+            </div>
+        </div>
+
+        <div class="footer_links">
+            <div class="links">
+                <h4>About</h4>
+                <li>About NFT</li>
+                <li>Live Auctions</li>
+                <li>NFT Blog</li>
+                <li>Activity</li>
+            </div>
+        </div>
+        <div class="footer_links">
+            <div class="links">
+                <h4>Support</h4>
+                <li>Help & Support</li>
+                <li>Item Details</li>
+                <li>Author Profile</li>
+                <li>Collection</li>
+            </div>
+        </div>
+
+    </footer>
+    <!-- <div class="up_icon">
+        <a href="#header"><img src="./assest/Arrow.svg" alt=""></a>
+    </div> -->
+
+
+
+
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+
+    <!--Bootstrap JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+
+    <!-- Swipers javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "cube",
+            grabCursor: true,
+            cubeEffect: {
+                shadow: true,
+                slideShadows: true,
+                shadowOffset: 20,
+                shadowScale: 0.94,
+            },
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            },
+            loop: true,
+
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+
+
+
+
+        var swiper = new Swiper('.swiper-container.two', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+            effect: 'coverflow',
+            loop: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflow: {
+                rotate: 0,
+                stretch: 100,
+                depth: 150,
+                modifier: 1.5,
+                slideShadows: false,
+            },
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            }
+        });
+
+    </script>
+
+</body>
+
+</html>

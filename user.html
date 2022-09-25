@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600&family=Work+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <!-- CSS only -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/swiper.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/anima.css">
+    <!-- favicon -->
+    <link rel="icon" href="./assest/rel.svg">
+
+    <title>Shihami</title>
+</head>
+
+<body>
+
+    <!-- navigation -->
+    <header id="header" class="header">
+        <div class="contain">
+            <nav>
+                <div class="wrapper">
+                    <div class="logo">
+                        <a href="index.html"><img src="./assest/Logo.png" alt=""></a>
+                    </div>
+                    <ul class="MenuItems">
+                        <li><a href="#">explore</a></li>
+                        <li><a href="#">trending nftS</a></li>
+                        <li><a href="#">auctioned nfts</a></li>
+                        <li><a href="#">influencers</a></li>
+                    </ul>
+                    <div class="btn">
+                        <a href="" class="wallet_btn">Connect Wallet</a>
+                        <img src="./assest/User Profile.svg" alt="">
+
+
+                        <div class="hambuger" onclick=" menutoggle()">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+    </header>
+    <div class="banner">
+        <div class="banner_img">
+            <!-- <img src="./assest/banner.png" alt=""> -->
+
+            <p>431 followers | 13 following</p>
+            <img src="./assest/User Profile.svg" class="user_proimage">
+            <img src="./assest/camera svg.svg" alt="">
+        </div>
+        <div class="contain">
+            <div class="user_info">
+                <p>user profile information</p>
+                <input type="text" placeholder="">
+            </div>
+
+
+            <div class="form">
+                <form>
+                    <div class="label">
+                        <label for="name">Enter Name</label> <br>
+                        <input type="text" name="Name" id="name" required>
+                    </div>
+                    <div class="label">
+                        <label for="user">User Name</label> <br>
+                        <input type="text" name="User Name" id="user" required>
+                    </div>
+                </form>
+
+                <form>
+                    <div class="label">
+                        <label for="name">Facebook </label> <br>
+                        <input type="text" name="Name" id="Facebook " required>
+                    </div>
+                    <div class="label">
+                        <label for="user">twitter </label> <br>
+                        <input type="text" name="User Name" id="twitter " required>
+                    </div>
+                </form>
+            </div>
+            <label for="bio" class="bio">Bio</label> <br>
+            <input type="text" name="bio" id="bio" class="input" >
+            <div class="btn">
+                <a href="" class="wallet_btn">update profile</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- footer -->
+
+    <footer>
+        <div class="footer_logo">
+            <a href="#header"><img src="./assest/Logo.png" width="130px" style="cursor: pointer;"></a>
+        </div>
+        <div class="footer_links">
+            <p>Shihami is the world’s leading NFTs marketplace where you can discover, sell and bid NFTs and get rich
+            </p>
+            <div class="socials">
+                <img src="./assest/social (1).svg" alt="">
+                <img src="./assest/social (2).svg" alt="">
+                <img src="./assest/social (3).svg" alt="">
+                <img src="./assest/social (4).svg" alt="">
+            </div>
+            <div class="copy">
+                <span>All rights reserved @Faizansayani</span>
+            </div>
+        </div>
+
+        <div class="footer_links">
+            <div class="links">
+                <h4>About</h4>
+                <li>About NFT</li>
+                <li>Live Auctions</li>
+                <li>NFT Blog</li>
+                <li>Activity</li>
+            </div>
+        </div>
+        <div class="footer_links">
+            <div class="links">
+                <h4>Support</h4>
+                <li>Help & Support</li>
+                <li>Item Details</li>
+                <li>Author Profile</li>
+                <li>Collection</li>
+            </div>
+        </div>
+
+    </footer>
+    <!-- <div class="up_icon">
+        <a href="#header"><img src="./assest/Arrow.svg" alt=""></a>
+    </div> -->
+
+
+
+
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+
+    <!--Bootstrap JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+
+    <!-- Swipers javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "cube",
+            grabCursor: true,
+            cubeEffect: {
+                shadow: true,
+                slideShadows: true,
+                shadowOffset: 20,
+                shadowScale: 0.94,
+            },
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            },
+            loop: true,
+
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+
+
+
+
+        var swiper = new Swiper('.swiper-container.two', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+            effect: 'coverflow',
+            loop: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflow: {
+                rotate: 0,
+                stretch: 100,
+                depth: 150,
+                modifier: 1.5,
+                slideShadows: false,
+            },
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            }
+        });
+
+    </script>
+
+</body>
+
+</html>

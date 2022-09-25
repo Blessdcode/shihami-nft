@@ -1,0 +1,60 @@
+@keyframes zoomIn {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(10px);
+    }
+
+    50%{
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(5rem);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0rem);
+        opacity: 1;
+    }
+}
+
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: transform 2s ease,
+        opacity 2s ease;
+}
+
+.scale.scaleOnScroll {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.scale {
+    opacity: 0;
+    transform: scale(0);
+    transition: transform 2s ease,
+        opacity 2s ease;
+}
+
+.slideUp {
+    animation: slideUp 2s 0s 1;
+}

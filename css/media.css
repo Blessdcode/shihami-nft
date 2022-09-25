@@ -1,0 +1,692 @@
+@media screen and (max-width:1024px) {
+    body {
+        /* background: yellowgreen; */
+    }
+
+    ::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    html {
+        font-size: 13px;
+    }
+
+    .contain {
+        max-width: 1060px;
+        margin: 0 auto;
+    }
+
+    nav li a {
+        font-family: 'Oxanium';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        transition: .5s ease;
+    }
+
+    .hero_left h1 {
+        font-family: 'Oxanium';
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 62px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+
+    .button_dark {
+        /* height: 70px; */
+        width: 195px;
+    }
+
+    .button_light {
+        width: 195px;
+    }
+
+    .hero_right {
+        width: 12rem;
+    }
+
+    .wallet {
+        gap: 51px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+        position: relative;
+    }
+
+    .nft_cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(358px, 1fr));
+        gap: 20px;
+    }
+
+    .influencer_profile {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .sub_now h2 {
+        font-family: 'Oxanium';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 130px;
+        text-align: center;
+        color: #F5FBF2;
+        margin-bottom: 1rem;
+    }
+
+    .sub_now form {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 0px 20px;
+        gap: 360px;
+        border: 1px solid #AD1AAF;
+        border-radius: 15px;
+        width: 730px;
+        height: 68.27px;
+    }
+
+    footer {
+        padding: 117px 35px;
+        gap: 40px;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    body {
+        /* background-color: teal; */
+    }
+
+    .contain {
+        max-width: 909px;
+        margin: 0 auto;
+    }
+
+    nav ul {
+        width: 100%;
+        height: 50vh;
+        position: fixed;
+        /* right: 0; */
+        top: 0;
+        right: 0;
+        left: 0;
+        overflow: hidden;
+        z-index: 9999;
+        flex-direction: column;
+        justify-content: center;
+        transition: 1s ease;
+        align-items: flex-start;
+        text-align: center;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
+        backdrop-filter: blur(104.8333px);
+    }
+
+    nav ul li {
+        margin-top: 2rem;
+    }
+
+    nav ul li a {
+        font-size: 1rem;
+    }
+
+    .hambuger {
+        display: block;
+        position: fixed;
+        cursor: pointer;
+        right: 50px;
+        margin-left: 18px;
+        z-index: 99999;
+    }
+
+    .hero_page {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* margin: .5566rem 0; */
+        position: relative;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    header {
+        /* height: 90vh; */
+        width: 100%;
+        overflow: unset;
+        overflow-x: hidden;
+        position: relative;
+    }
+
+    .swiper {
+        height: 397px !important;
+        width: 321px !important;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -10%);
+        margin-left: -150px;
+        margin-top: 50px;
+        display: block;
+    }
+
+    .mikky_wav {
+        position: absolute;
+        bottom: 0;
+        z-index: -10;
+        /* width: 20rem; */
+        display: none;
+    }
+
+    .copy {
+        position: absolute;
+        bottom: 4.55rem;
+        left: 2.6756rem;
+    }
+
+}
+
+
+@media screen and (max-width:600px) {
+    .contain {
+        /* max-width: 348px; */
+        margin: 0 auto;
+    }
+
+    .hambuger {
+        right: 1.755rem;
+    }
+
+    .hero_left h1 {
+        font-family: 'Oxanium';
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 62px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        width: 61%;
+    }
+
+    .hero_left p {
+        font-family: 'Lato' sans-serif;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 13px;
+        line-height: 30px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        margin: 2rem 0 5rem 0;
+    }
+
+    .wrapper .btn a {
+        display: block;
+        width: 117px;
+        padding: 16px 12px;
+        height: 40px;
+        position: relative;
+        top: -15px;
+        right: 3px;
+    }
+
+    .wrapper .btn .wallet_btn{
+        display: none;
+    }
+
+    .hero_left h1 {
+        font-family: 'Oxanium';
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 72px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        width: 100%;
+    }
+
+    .hero_left .buttons {
+        display: flex;
+        gap: 40px;
+        align-items: center;
+        /* justify-content: center; */
+        position: relative;
+        flex-direction: column;
+    }
+
+    .hero_left {
+        width: 24rem;
+        color: #fff;
+    }
+
+    .hero_right {
+        width: 100%;
+        display: none;
+    }
+
+
+    .wallet {
+        gap: 51px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+        position: relative;
+        place-items: center;
+    }
+
+    .steps {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        text-align: center;
+        position: relative;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .wallet .wallet_1 {
+        height: 293px;
+        width: 218px;
+    }
+
+    .wallet .wallet_1 .circle {
+        height: 170px;
+        width: 170px;
+    }
+
+    .nft_cards .nft_card1 {
+        height: 503px;
+        width: 341px;
+        background: linear-gradient(147.75deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+        backdrop-filter: blur(10px);
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        color: #ffff;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+
+    .nft_cards {
+        place-items: center;
+    }
+
+    .nft-box {
+        padding: 14px;
+    }
+
+    .nft-box .btnn .button_light {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 20px auto;
+        height: 55px;
+        width: 232.279083px;
+    }
+
+    .influencer_pic .pic_image {
+        display: inline-flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .influencer_pic .pic_image img {
+        width: 50%;
+    }
+
+    .bold_name h4 {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .sub_now h2 {
+        font-family: 'Oxanium';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 130px;
+        text-align: center;
+        color: #F5FBF2;
+        margin-bottom: 1rem;
+    }
+
+    .sub_now form {
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 20px;
+        gap: 10px;
+        border: 1px solid #AD1AAF;
+        border-radius: 15px;
+        width: 311px;
+        height: 57.27px;
+    }
+
+    .sub_now form button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 4px;
+        width: 168px;
+        height: 54.5px;
+        background: #AD1AAF;
+        border-radius: 8px;
+        justify-content: center;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        margin-top: 20px;
+        margin: 17px auto;
+        /* display: inline-block; */
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: baseline;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .footer_links p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 36px;
+        color: #96839B;
+        width: 100%;
+    }
+
+    .content .button_light {
+        width: 134px;
+        font-size: 1rem;
+        padding: 1px0;
+    }
+
+    .content h2 {
+        font-size: 1.556rem;
+    }
+
+    .content .text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .banner_img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .banner_img p {
+        font-size: 12px;
+        position: absolute;
+        bottom: 12px;
+        left: 17px;
+    }
+
+    .banner_img .user_proimage {
+        width: 5rem;
+        position: absolute;
+        bottom: -30px;
+        right: 33px;
+    }
+
+    .user_info {
+        display: flex;
+        justify-content: baseline;
+        flex-direction: column;
+        margin: 30px;
+        padding-bottom: 30px;
+    }
+
+    .user_info p {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 36px;
+        text-transform: capitalize;
+        padding: 10px;
+    }
+
+    .user_info input {
+        width: 380px;
+    }
+    .banner label {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 30px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        padding-bottom: 12px;
+    }
+
+    .label input {
+        opacity: 0.4;
+        border: 1px solid #A7A7A7;
+        border-radius: 15px;
+        outline: none;
+        background: none;
+        /* padding: 40px 30px 0; */
+        height: 43px;
+        width: 388px;
+        color: #F5FBF2;
+        padding-left: 30px;
+    }
+    .form {
+        display: flex;
+        align-items: center;
+        justify-content: baseline;
+        flex-wrap: wrap;
+        margin: 30px;
+    }
+
+    .banner .input {
+        height: 215px;
+        width: 388px;
+        margin: 30px;
+    }
+
+    .banner .btn {
+        display: flex;
+        align-items: center;
+        margin: 30px;
+    }
+
+    .banner .bio {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 30px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        /* padding-bottom: 12px; */
+        margin: 30px;
+    }
+
+}
+
+@media screen and (max-width:375px) {
+
+    .contain {
+        /* max-width: 200px; */
+    }
+
+    .hambuger {
+        right: 0rem;
+    }
+
+    .hero_left h1 {
+        font-size: 21px;
+        line-height: 24px;
+    }
+
+    .hero_left {
+        width: 19rem;
+        color: #fff;
+    }
+
+    .content p {
+        font-size: .678rem;
+        line-height: 10px;
+    }
+
+    .nft-box {
+        padding: 17px;
+    }
+
+    .nft_cards .nft_card1 {
+        height: 460px;
+        width: 285px;
+    }
+
+    .nft_cards {
+        /* place-items: center; */
+        margin: auto;
+    }
+
+    .nft-box .btnn .button_light {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 20px auto;
+        height: 55px;
+        width: 202.279083px;
+    }
+
+    .influencer_profile .influencer_card {
+
+        width: 279px;
+        height: 356px;
+    }
+
+    .influencer_pic .user {
+        position: absolute;
+        left: 10px;
+        bottom: 0em;
+        width: 5rem;
+    }
+
+
+    .banner_img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .banner_img p {
+        font-size: 12px;
+        position: absolute;
+        bottom: 12px;
+        left: 17px;
+    }
+
+    .banner_img .user_proimage {
+        width: 5rem;
+        position: absolute;
+        bottom: -30px;
+        right: 33px;
+    }
+
+    .user_info {
+        display: flex;
+        justify-content: baseline;
+        flex-direction: column;
+        margin: 30px;
+        padding-bottom: 30px;
+    }
+
+    .user_info p {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 36px;
+        text-transform: capitalize;
+        padding: 10px;
+    }
+
+    .user_info input {
+        border: 0;
+        outline: 0;
+        background: none;
+        border-bottom: 2px solid #F5FBF2;
+        color: #F5FBF2;
+        /* padding: 7px; */
+        width: 287px;
+        margin-left: 10px;
+    }
+
+    .banner label {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 30px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        padding-bottom: 12px;
+    }
+
+    .label input {
+        opacity: 0.4;
+        border: 1px solid #A7A7A7;
+        border-radius: 15px;
+        outline: none;
+        background: none;
+        /* padding: 40px 30px 0; */
+        height: 43px;
+        width: 307px;
+        color: #F5FBF2;
+        padding-left: 30px;
+    }
+
+    .form {
+        display: flex;
+        align-items: center;
+        justify-content: baseline;
+        flex-wrap: wrap;
+        margin: 30px;
+    }
+
+    .banner .input {
+        height: 215px;
+        width: 300px;
+        margin: 30px;
+        margin-top: 0;
+    }
+
+    .banner .btn {
+        display: flex;
+        align-items: center;
+        margin: 30px;
+    }
+
+    .banner .bio {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 30px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        padding-bottom: 0;
+        margin: 30px;
+        margin-bottom: 0;
+    }
+}
